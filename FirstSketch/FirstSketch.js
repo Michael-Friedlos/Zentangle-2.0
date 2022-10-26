@@ -1,6 +1,6 @@
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  background(100);
+  background(0);
 }
 
 function draw() {
@@ -12,5 +12,5 @@ function draw() {
   }else{
     fill(229-random(200), 107, 111)  
   }
-  rect(300,300,5,60)
+  rect(200,200,5,60)
 }
