@@ -8,9 +8,9 @@ function draw() {
   rotate(frameCount)
   translate(frameCount,0)
   if(frameCount%5<3){
-    fill(53-random(200), 80, 112)
+    fill(53-random(50), 255, 255)
   }else{
-    fill(229-random(200), 107, 111)  
+    fill(229-random(110), 255, 255)  
   }
   rect(200,200,5,60)
 }
